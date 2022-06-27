@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logoorange {
+    background-color: orange;
+}
+
+.logoblue {
+    background-color: rgb(85, 85, 207);
+    width: 115%;
+    position: fixed;
+}
+
+.logored {
+    background-color: red;
+    width: 115%;
+    position: fixed;
+}
+
+.logogreen {
+    background-color: green;
+    width: 110%;
+    position: fixed;
+}
+
+.logopurple {
+    background-color: purple;
+    width: 115%;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-left: -15px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+    overflow-x: hidden;
+}
+
+.searchbar {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 0;
+    margin: 0;
+    min-height: 0rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 80px;
+}
+
+button:hover,
+button:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+p {
+    margin-left: -80px;
+}
+
+pre {
+    margin-left: -20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.songName {
+    position: absolute;
+    margin-left: 105px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.songArtist {
+    position: absolute;
+    margin-left: 105px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.songsList {
+    text-align: center;
+    margin-left: -10px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    margin-top: 630px;
+    width: 100%;
+}
+
+.copyrightText {
+    margin-left: 25px;
+}
+
+.copyrightImage {
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 4px;
+}
+.audioPlay{
+    text-align: center;
+    position: fixed;
+
+    margin-left: 105px;
+    margin-top: -60px;
+}
+audio{
+    width: 230px;
+    height: 20px;
+}

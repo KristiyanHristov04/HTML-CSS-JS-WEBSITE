@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+    <title>LYRICME | Find your favourite song's lyrics</title>
+</head>
+
+<body>
+    <div class="logoorange">
+        <h1>LYRICME</h1>
+    </div>
+    <div class="searchbar">
+        <p>Search for your song:</p>
+        <input type="search" id="search" value="" onchange="openPage()"><button>SEARCH</button>
+    </div>
+    <script>
+        function openPage() {
+            var x = document.getElementById("search").value;
+            x = x.toLowerCase();
+            if (x === "save your tears" || x === "the weeknd" || x === "the weeknd - save your tears") {
+                window.open("/saveyourtears.html");
+            }
+            if (x === "metallica" || x === "nothing else matters" || x === "metallica - nothing else matters") {
+                window.open("/nothingelsematters.html");
+            }
+            if (x === "rammstein" || x === "du hast" || x === "rammstein - du hast") {
+                window.open("/duhast.html");
+            }
+            if (x === "eminem" || x === "without me" || x === "eminem - without me") {
+                window.open("/withoutme.html");
+            }
+        }      
+    </script>
+    <br>
+    <div class="songsList">
+        <ul>
+            <li><u><i>Songs you can look up into:</i></u></li>
+            <li><b>Metallica - Nothing Else Matters</b></li>
+            <li><b>Eminem - Without Me</b></li>
+            <li><b>Rammstein - Du Hast</b></li>
+            <li><b>The Weeknd - Save Your Tears</b></li>
+        </ul>
+    </div>
+    <footer>
+        <!-- <img src="copyrightlegit.png" alt="" width="15" height="15" class="copyrightImage"> -->
+        <p class="copyrightText">2022 LYRICME. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
